@@ -1,0 +1,15 @@
+<script>
+//하이픈 사용
+		var pnum1 = document.join.pnum1.value;
+		var pnum2 = document.join.pnum2.value;
+		var pnum3 = document.join.pnum3.value;
+		var pnum = pnum1 + "-" + pnum2 + "-" + pnum3;
+		document.getElementById('pnum').value = pnum;
+    </script>
+    <div>
+							<label for="pnum">핸드폰 번호</label> <input type="text" id="pnum1"
+								name="pnum1" maxlength="3">- <input type="text"
+								id="pnum2" name="pnum2" maxlength="4">- <input
+								type="text" id="pnum3" name="pnum3" maxlength="4"> <input
+								type="hidden" id="pnum" name="pnum">
+						</div>
